@@ -1,0 +1,26 @@
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .game-board {
+    border: 3px solid rgb(5, 88, 62);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .board-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square {
+    border: 1px solid rgb(10, 121, 38);
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+  }
