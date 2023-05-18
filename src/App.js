@@ -1,7 +1,8 @@
 
 import './App.css';
-import Header from './header';
-import Hero from './component/hero';
+import Quiz from './component/Quiz';
+// import Header from './header';
+// import Hero from './component/hero';
 
 
 
@@ -11,9 +12,9 @@ function App() {
   return (
     <div className="App">
 
-
-<Header/>
-  <Hero/>
+<Quiz/>
+{/* <Header/>
+  <Hero/> */}
  </div>
   
   );
